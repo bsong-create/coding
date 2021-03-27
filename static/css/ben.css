@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background-color: teal;
+}
+
+.title {
+  color: #E8A87C;
+}
+
+.number {
+  color: turquoise;
+  margin-bottom: 20px;
+  font-size: 110px;
+}
+
+.minus {
+  margin-left: 12px;
+  font-size: 70px;
+  padding: 5px 30px;
+  color: pink;
+  background-color: navy;
+  border-style: solid;
+}
+
+.minus:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.plus {
+  margin-right: 12px;
+  font-size: 70px;
+  padding: 5px 25px;
+  color: pink;
+  background-color: navy;
+  border-style: solid;
+}
+
+.plus:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.reset {
+  margin-top: 25px;
+  font-size: 90px;
+  color: black;
+  background-color: coral;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+
+.author {
+  margin-top: 35px;
+  color: white;
+}
+
+.rainbow {
+  width: 50%;
+}
