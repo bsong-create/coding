@@ -1,8 +1,7 @@
-let number = document.getElementById("number");
-let minus = document.getElementById("minus");
-let plus = document.getElementById("plus");
-let reset = document.getElementById("reset");
-
+const number = document.getElementById("number");
+const minus = document.getElementById("minus");
+const plus = document.getElementById("plus");
+const reset = document.getElementById("reset");
 
 minus.addEventListener("click", subtract);
 plus.addEventListener("click", add);
@@ -20,4 +19,14 @@ function add() {
 }
 function startOver() {
   number.innerHTML = 0;
+}
+document.addEventListener("keydown", keyboard);
+function keyboard(event) {
+  if (event.key === "a" || event.key === "+") {
+    add();
+  } else if (event.key === "s" || event.key === "-") {
+    subtract();
+  } else if (event.key === "r" || event.key === "0") {
+    startOver();
+  }
 }
